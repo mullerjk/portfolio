@@ -2,9 +2,12 @@
   "name": "antonio-muller-portfolio",
   "private": true,
   "description": "A Gatsby starter template for a Wordpress blog, built using Typescript, SCSS and Ant Design",
-  "version": "1.0.4",
+  "version": "1.0.0",
   "author": "Antonio Müller <contato@antoniomuller.com>",
   "homepage": "https://antoniomuller.com",
+  "engines": {
+    "node": "14.x"
+  },
   "keywords": [
     "gatsby",
     "gatsby-starter",
