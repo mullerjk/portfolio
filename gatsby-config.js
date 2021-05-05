@@ -51,12 +51,12 @@ module.exports = {
 		{
 			resolve: 'gatsby-source-wordpress',
 			options: {
-				baseUrl: `${process.env.GATSBY_WORDPRESS_URL_PATH}`,
+				baseUrl: '3.215.161.83',
 				protocol: `${process.env.GATSBY_WORDPRESS_URL_PROTOCOL}`,
 				plugins: [{
 					resolve: `gatsby-wordpress-inline-images`,
 					options: {
-						baseUrl: `${process.env.GATSBY_WORDPRESS_URL_PATH}`,
+						baseUrl: '3.215.161.83',
 						protocol: `${process.env.GATSBY_WORDPRESS_URL_PROTOCOL}`,
 						maxWidth: 960,
 						maxHeight: 600,
@@ -69,7 +69,7 @@ module.exports = {
 				verboseOutput: false,
 				perPage: 100,
 				searchAndReplaceContentUrls: {
-					sourceUrl: `${process.env.GATSBY_WORDPRESS_URL_PROTOCOL}://${process.env.GATSBY_WORDPRESS_URL_PATH}`,
+					sourceUrl: `${process.env.GATSBY_WORDPRESS_URL_PROTOCOL}://3.215.161.83`,
 					replacementUrl: `${process.env.GATSBY_SITE_URL_PROTOCOL}://${process.env.GATSBY_SITE_URL_PATH}`
 				},
 				concurrentRequests: 10,
