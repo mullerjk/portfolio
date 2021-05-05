@@ -119,7 +119,7 @@ module.exports = {
 		{
 			resolve: 'gatsby-source-instagram',
 			options: {
-				username: process.env.GATSBY_INSTAGRAM_SOURCE
+				username: 43327350
 			}
 		},
 		{
