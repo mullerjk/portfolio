@@ -37,7 +37,8 @@
     "lint": "tslint -c tslint.json -p tsconfig.json ./src/**/*.{ts,tsx}",
     "purgeAll": "rm -rf node_modules && rm -rf yarn.lock rm -rf package-lock.json && rm -rf .cache && rm -rf public && npm install",
     "purgeCache": "rm -rf .cache && rm -rf public",
-    "purgeDependencies": "rm -rf node_modules && rm -rf yarn.lock rm -rf package-lock.json && npm install"
+    "purgeDependencies": "rm -rf node_modules && rm -rf yarn.lock rm -rf package-lock.json && npm install",
+    "heroku-postbuild": "gatsby build"
   },
   "dependencies": {
     "antd": "^3.0.0",
